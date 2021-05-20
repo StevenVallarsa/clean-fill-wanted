@@ -4,6 +4,8 @@
   "description": "A website to connect those who want soil with those have it",
   "main": "index.js",
   "scripts": {
+    "lite": "lite-server",
+    "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/StevenVallarsa/clean-fill-wanted/issues"
   },
-  "homepage": "https://github.com/StevenVallarsa/clean-fill-wanted#readme"
+  "homepage": "https://github.com/StevenVallarsa/clean-fill-wanted#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
 }
