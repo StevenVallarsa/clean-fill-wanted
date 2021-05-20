@@ -1,0 +1,19 @@
+{
+  "name": "clean-fill-wanted",
+  "version": "1.0.0",
+  "description": "A website to connect those who want soil with those have it",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StevenVallarsa/clean-fill-wanted.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StevenVallarsa/clean-fill-wanted/issues"
+  },
+  "homepage": "https://github.com/StevenVallarsa/clean-fill-wanted#readme"
+}
