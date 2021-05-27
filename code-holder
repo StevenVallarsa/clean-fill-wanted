@@ -1,0 +1,122 @@
+  <div id="outerAccordion">
+    <div class="card">
+      <div class="card-header">
+        <h1>
+          <a data-toggle="collapse" data-target="#accordion">
+            First Set of Cookies
+          </a>
+        </h1>
+
+        <!-- START FIRST COOKIE-->
+        <div class="card-body collapse" id="accordion">
+
+          <div class="card">
+            <div class="card-header">
+              <h3>
+                <a data-toggle="collapse" data-target="#cookie1">Cookie 1</a>
+              </h3>
+              <div class="collapse" id="cookie1" data-parent="#accordion">
+                <div class="card-body">
+                  <p>This is the copy for cookie 1</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <h3><a data-toggle="collapse" data-target="#cookie2">Cookie 2</a></h3>
+              <div class="collapse" id="cookie2" data-parent="#accordion">
+                <div class="card-body">
+                  <p>This is the copy for cookie 2</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <h3><a data-toggle="collapse" data-target="#cookie3">Cookie 3</a></h3>
+              <div class="collapse" id="cookie3" data-parent="#accordion">
+                <div class="card-body">
+                  <p>This is the copy for cookie 3</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <h3><a data-toggle="collapse" data-target="#cookie4">Cookie 4</a></h3>
+              <div class="collapse" id="cookie4" data-parent="#accordion">
+                <div class="card-body">
+                  <p>This is the copy for cookie 4</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END FIRST COOKIE-->
+
+      <div class="card">
+        <div class="card-header">
+          <h1>
+            <a data-toggle="collapse" data-target="#accordion2">
+              Second Set of Cookies
+            </a>
+          </h1>
+
+          <!-- START SECOND COOKIE-->
+          <div id="accordion2" class="card-body collapse">
+
+            <div class="card">
+              <div class="card-header">
+                <h3><a data-toggle="collapse" data-target="#cookie5">Cookie 5</a></h3>
+                <div class="collapse" id="cookie5" data-parent="#accordion2">
+                  <div class="card-body">
+                    <p>This is the copy for cookie 5</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <h3><a data-toggle="collapse" data-target="#cookie6">Cookie 6</a></h3>
+                <div class="collapse" id="cookie6" data-parent="#accordion2">
+                  <div class="card-body">
+                    <p>This is the copy for cookie 6</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <h3><a data-toggle="collapse" data-target="#cookie7">Cookie 7</a></h3>
+                <div class="collapse" id="cookie7" data-parent="#accordion2">
+                  <div class="card-body">
+                    <p>This is the copy for cookie 7</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <h3><a data-toggle="collapse" data-target="#cookie8">Cookie 8</a></h3>
+                <div class="collapse" id="cookie8" data-parent="#accordion2">
+                  <div class="card-body">
+                    <p>This is the copy for cookie 8</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- END SECOND COOKIE-->
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
